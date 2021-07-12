@@ -18,7 +18,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a href="index.html" class="navbar-brand">E-Commerce</a>
-        <div class="collapse navbar-collapse">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="login.html" class="nav-link">Login</a>
@@ -33,17 +41,23 @@
 
     <!-- Search Item -->
     <section class="p-5 bg-dark text-light">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h3>Search Item</h3>
-        <div class="input-group w-75">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Search Item Here"
-          />
-          <button class="btn btn-outline-secondary" type="button">
-            Search
-          </button>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-sm-12">
+            <h3>Search Item</h3>
+          </div>
+          <div class="col-lg-9 col-sm-12">
+            <div class="input-group w-100">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Item Here"
+              />
+              <button class="btn btn-outline-secondary" type="button">
+                Search
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -53,7 +67,7 @@
       <div class="container">
         <h3 class="text-center">Most Popular</h3>
         <div class="row mt-5">
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-1.jpg"
@@ -70,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-2.jpg"
@@ -87,7 +101,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-3.jpg"
@@ -104,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-4.jpg"
@@ -121,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-1.jpg"
@@ -138,7 +152,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-2.jpg"
@@ -155,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-3.jpg"
@@ -172,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mt-3">
+          <div class="col-lg-3 col-md-6 mt-3">
             <div class="card">
               <img
                 src="img/new-arrival-4.jpg"

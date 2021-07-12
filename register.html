@@ -18,7 +18,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a href="index.html" class="navbar-brand">E-Commerce</a>
-        <div class="collapse navbar-collapse">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="#" class="nav-link">Need help ?</a>
@@ -32,7 +40,7 @@
       <h3>Create your account here</h3>
       <form>
         <div class="row mt-4">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-12">
             <div class="mb-3">
               <label for="fullname" class="form-label">Fullname</label>
               <input type="text" class="form-control" id="fullname" />
@@ -62,7 +70,7 @@
               <input type="text" class="form-control" id="phone" />
             </div>
           </div>
-          <div class="col-6 ps-4">
+          <div class="col-lg-6 col-md-12">
             <div class="mb-3">
               <label for="password1" class="form-label">New Password</label>
               <input type="password" class="form-control" id="password1" />
